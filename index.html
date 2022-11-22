@@ -13,7 +13,8 @@
 </head>
 <body>
     <div id="app">
-
+        <div v-for="mail in mailList">{{ mail }}</div>
+        <button @click="getEmailList()">Genera</button>
     </div>
 </body>
 </html>
